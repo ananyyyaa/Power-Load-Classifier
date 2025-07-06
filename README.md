@@ -3,34 +3,35 @@
 
 1. Data Cleaning
    
-Parse `Date_Time` column
+   Parse `Date_Time` column
 
-Fill missing values using column-wise median
+   Fill missing values using column-wise median
 
-Strip column names for consistency
+   Strip column names for consistency
 
 2. Feature Engineering
    
-Extract `Month` from timestamp
+   Extract `Month` from timestamp
 
 3. Train-Test Split
    
-Uses last month’s data as test set
-Ensures time-order is respected 
-
-4. Model
+   Uses last month’s data as test set
    
-Random Forest Classifier 
+   Ensures time-order is respected 
 
-Chosen for robustness and interpretability
+5. Model
+   
+   Random Forest Classifier 
+
+   Chosen for robustness and interpretability
 
 5. Evaluation
     
-Accuracy
+   Accuracy
 
-Classification Report - precision, recall, f1-score
+   Classification Report - precision, recall, f1-score
 
-Confusion Matrix (visualized)
+   Confusion Matrix (visualized)
 
 #  Output Confusion Matrix
 
